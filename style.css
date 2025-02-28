@@ -1,11 +1,43 @@
 body {
-    background-color: #FBE6F2;
-    color: #333333;
+    background-color: #000000;
+    color: #fd0707;
     font-family: Arial, sans-serif;
     text-align: center;
 }
 
-h1 {
-    font-size: 3em;
-    margin-top: 1em;
+\\ los cuadros\\
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+  
+\\ título \\
+.div1 {
+    grid-column: span 4 / span 4;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+\\ iconos\\
+.div2 {
+    grid-column: span 4 / span 4;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+\\ información\\
+.div3 {
+    grid-column: span 4 / span 4;
+    grid-row: span 3 / span 3;
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+\\ publicidad\\
+.div4 {
+    grid-row: span 5 / span 5;
+    grid-column-start: 1;
+    grid-row-start: 1;
 }
