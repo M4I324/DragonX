@@ -23,12 +23,18 @@ body {
     text-align: center;
     color: #fa0707;
     font-size: 24px;
+    width: 100px;
+    height: 50px;
+    background-color: aliceblue;
 }
 
 .div2 {
     grid-row: span 5 / span 5;
     grid-column-start: 1;
     grid-row-start: 1;
+    width: 100px;
+    height: 50px;
+    background-color: aliceblue;
 
 }
 
@@ -36,6 +42,9 @@ body {
     grid-column-start: 2;
     grid-row-start: 2;
     text-align: center;
+    width: 100px;
+    height: 50px;
+    background-color: aliceblue;
     
 }
 
@@ -43,6 +52,9 @@ body {
     grid-column-start: 3;
     grid-row-start: 2;
     text-align: center;
+    width: 100px;
+    height: 50px;
+    background-color: aliceblue;
 
     
 }
@@ -51,6 +63,9 @@ body {
     grid-column-start: 4;
     grid-row-start: 2;
     text-align: center;
+    width: 100px;
+    height: 50px;
+    background-color: aliceblue;
     
 }
 
@@ -67,6 +82,5 @@ body {
     grid-column-start: 2;
     grid-row-start: 3;
 }
-
 
 
