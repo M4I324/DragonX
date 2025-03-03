@@ -1,7 +1,12 @@
 body {
-    background-color: #000000;
+   background-color: #000000;
     font-family: Arial, sans-serif;
-    
+    text-align: center;
+}
+
+.logo {
+    width: 50px; /* Ajusta el tamaño según necesites */
+    height: auto; /* Mantiene la proporción */
 }
 
 .parent {
@@ -10,38 +15,58 @@ body {
     grid-template-rows: repeat(5, 1fr);
     gap: 8px;
 }
-  
+    
 .div1 {
     grid-column: span 4 / span 4;
     grid-column-start: 2;
     grid-row-start: 1;
     text-align: center;
-    color: #fd0707;
+    color: #fa0707;
+    font-size: 24px;
 }
 
-
-
 .div2 {
-    grid-column: span 4 / span 4;
-    grid-column-start: 2;
-    grid-row-start: 2;
-    text-align: center;
-    color: #ffffff;
+    grid-row: span 5 / span 5;
+    grid-column-start: 1;
+    grid-row-start: 1;
+
 }
 
 .div3 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    text-align: center;
+    
+}
+
+.div4 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    text-align: center;
+
+    
+}
+
+.div5 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    text-align: center;
+    
+}
+
+.div6 {
+    grid-column-start: 5;
+    grid-row-start: 2;
+    text-align: center;
+    
+}
+
+.div7 {
     grid-column: span 4 / span 4;
     grid-row: span 3 / span 3;
     grid-column-start: 2;
     grid-row-start: 3;
-    text-align: center;
-    color: #ffffff;
 }
 
 
-.div4 {
-    grid-row: span 5 / span 5;
-    grid-column-start: 1;
-    grid-row-start: 1;
-    color: #ffffff;
-}
+
